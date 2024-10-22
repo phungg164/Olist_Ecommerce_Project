@@ -23,7 +23,7 @@ With the purpose of **wrangling data and visualizing data** in a dashboard for p
 The file can be downloaded [here](https://drive.google.com/file/d/1u1BTDwYSm05WXSu7CleDgqP8AiVX4PlO/view?usp=share_link)*
 
 # Data Structure & Initial Checks
-Olist's dataset was published in Kaggle [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) stored in 8 tables. It contains information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil and allows viewing orders from multiple dimensions:
+[Olist's Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) was published in Kaggle stored in 8 tables. It contains information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil and allows viewing orders from multiple dimensions:
 - Orders dimension (order status, price, payment, and freight value) 
 - Customers/Sellers dimension (location) 
 - Product dimension (category, size, weight …), 
