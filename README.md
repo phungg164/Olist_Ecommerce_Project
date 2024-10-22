@@ -34,18 +34,17 @@ Olist's dataset was published in Kaggle [(here)](https://www.kaggle.com/datasets
 </p>
 
 <details>
-  <summary>Click to expand</summary>
-  
-  Explanation about tables and each columns can be seen in detail here.
-  here here here (bỏ hình ảnh các table vào)
-
+  <summary>Click to expand -- Details on tables on columns meaning explanation</summary>
+<p align="center">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-21%20at%2010.35.18.png?raw=true" alt="description">
+</p>
 </details>
 
 # Executive Summary
 ## Overview of Findings --- Shipment Quality
 With the exponential growth of business within the period available in the dataset, Total Sales and Total Orders of Olist increased significantly during the 3-year-period from only $41.2 in Sep 2016 to $858.2K in Aug 2018, with its peak was $1,031K in Nov 2017.
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952883548477_40ad9f9f1014631a958b6446710e55fd.jpg?raw=true">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952883548477_40ad9f9f1014631a958b6446710e55fd.jpg?raw=true" alt="description">
 </p>
 
 However, together with Olist’s steep growth was **the emergence of the number of Late Orders**, which were orders shipped to customers later than Expected Delivery Date. This number accounted for **8.2% of Total Orders** and seemed to **reach their spikes during the period of Total Orders reaching its peak, from the end of 2017 to the first 3 months of 2018.**
@@ -136,6 +135,5 @@ There are many other hypotheses relating to the Deliver Process that need to be 
 # Conclusion
 With all the problems discovered through the analysis process, here is the table that summary the information and next actions:
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-22%20at%2011.14.11.png?raw=true
-" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-22%20at%2011.14.11.png?raw=true" alt="description">
 </p>
