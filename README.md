@@ -13,7 +13,7 @@ Focusing on quality of delivery system, I propose some **Key Metrics** acting as
 	- **Picking Time**: Time starts from Orders being approved to Orders being picked up by Carriers
 	- **Shipping Time**: Time starts from Orders being picked up by Carriers to Orders shipped to Customers
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952936310030_62e5ad929487512718cfe706a6babace.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(4)" alt="description">
 </p>
 
 ## Project Tools
