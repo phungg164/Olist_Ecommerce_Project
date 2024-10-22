@@ -139,4 +139,3 @@ With all the problems discovered through the analysis process, here is the table
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-22%20at%2011.14.11.png?raw=true
 " alt="description">
 </p>
-
