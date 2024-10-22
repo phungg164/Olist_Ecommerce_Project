@@ -13,7 +13,7 @@ Focusing on quality of delivery system, I propose some **Key Metrics** acting as
 	- **Picking Time**: Time starts from Orders being approved to Orders being picked up by Carriers
 	- **Shipping Time**: Time starts from Orders being picked up by Carriers to Orders shipped to Customers
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(4)" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Delivery%20Process" alt="description">
 </p>
 
 ## Project Tools
@@ -30,13 +30,13 @@ Olist's dataset was published in Kaggle [(here)](https://www.kaggle.com/datasets
 - Product dimension (category, size, weight …), 
 - Reviews dimension written by customers (rating, review …)
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Olist%20Dataset%20-%20ERD.png?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Olist%20Dataset%20-%20ERD" alt="description">
 </p>
 
 <details>
   <summary>Click to expand -- Details on tables on columns meaning explanation</summary>
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-21%20at%2010.35.18.png?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Olist%20Dataset%20-%20Columns%20explanation" alt="description">
 </p>
 </details>
 
@@ -44,26 +44,26 @@ Olist's dataset was published in Kaggle [(here)](https://www.kaggle.com/datasets
 ## Overview of Findings --- Shipment Quality
 With the exponential growth of business within the period available in the dataset, Total Sales and Total Orders of Olist increased significantly during the 3-year-period from only $41.2 in Sep 2016 to $858.2K in Aug 2018, with its peak was $1,031K in Nov 2017.
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952883548477_40ad9f9f1014631a958b6446710e55fd.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(1)" alt="description">
 </p>
 
 However, together with Olist’s steep growth was **the emergence of the number of Late Orders**, which were orders shipped to customers later than Expected Delivery Date. This number accounted for **8.2% of Total Orders** and seemed to **reach their spikes during the period of Total Orders reaching its peak, from the end of 2017 to the first 3 months of 2018.**
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952884073917_2774d8c7b01f192b2989604dc3f12d0b.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(2)" alt="description">
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952885690903_875d99fbafe143ca5fc6bc907f74b6a0.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(3)" alt="description">
 </p>
 
 Consequently, while the average rating of On-time Orders was **4.3**, this number of Late Orders **fell to 2.6** and had **46.9% of Orders getting rating 1.**
 
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952935729490_2dc2713c9e33d67423abce34bb4ea25e.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Overview%20(4)" alt="description">
 </p>
 
 ## Insight Deep-dive
 1. **Key Metric**: Number of Late Orders and Late Orders Rate
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952936776050_e71893b28a4e27a31184963528a1b2d7.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(1)" alt="description">
 </p>
 
 Among **7.8K Late Orders in 3 years**, orders of Sellers from Sao Paulo had the highest number in contribution. This is understandable as Total Orders in Sao Paulo accounted for more than 70% orders in the dataset, so that there was no problem if the Late Order Rate in Sao Paulo is not higher than average. **Hence, it’s much better to look at both 2 metrics: number of Late Orders and Late Orders Rate, instead of just only one of them.**
@@ -71,7 +71,7 @@ Among **7.8K Late Orders in 3 years**, orders of Sellers from Sao Paulo had the 
 From now on, I will choose to visualize Late Orders Rate by different dimensions, and simultaneously sort different categorical values of each dimension in descending order.
 
 <p align="center">
-<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952940664132_d5fec3d740b41d6716419c1dce60066c.jpg?raw=true" alt="description">
+<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(2)" alt="description">
 </p>
 
 Sao Paulo with **its highest contribution of Late Orders**, also had the **Late Orders Rate higher than average** which is a huge problem that Olist should pay attention to *(I will prioritize this state first as the contribution of other states in terms of Late Orders are not high).*
@@ -91,20 +91,20 @@ Based on some online research about e-commerce delivery process, here are some o
 (1) Looking at the Shipping Roads that were **in top contribution of Late Orders** and **had Late Orders Rate higher than average**, the roads were almost from Sao Paulo to nearby states (picture below). So, **hypothesis (1) is rejected.**
 
 <p align="center">
-<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952941171724_531b3b59f21dc5b7e82edd0d7447b649.jpg?raw=true" alt="description">
+<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(3)" alt="description">
 </p>
 
 (2) Considering the Growth Rate of Total Orders and Late Orders Rate in Sao Paulo in picture below, **only the significant growth in November 2017** went together with a significant increase in Late Orders Rate; **while the other months highlighted did not show the same trends**. So, **hypothesis (2) is also rejected.**
 
 <p align="center">
-<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952941935400_c463184c2b907840ac0e80be9d99becb.jpg?raw=true" alt="description">
+<img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(4)" alt="description">
 </p>
 
 With **more dataset relating to Olist’s Delivery process in real life**, I will continue with this thinking process together with domain knowledge to figure out the root cause and end up with a recommendation for my managers.
 
 2. **Key Metric**: Delivery Time
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952936310030_62e5ad929487512718cfe706a6babace.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Delivery%20Process" alt="description">
 </p>
 
 From the 2 graphs below which calculate and visualize Delivery Process, I can say that:
@@ -114,18 +114,18 @@ From the 2 graphs below which calculate and visualize Delivery Process, I can sa
 These 2 stages are what I should focus on.
 
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952942605128_60434dbcdaf28ff395a48d61834fbd56.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric2%20(1)" alt="description">
 </p>
 
 Here are some hypotheses relating to time extension of Late Orders, comparing to On-time Orders:
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-22%20at%2010.53.54.png?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric2%20(2)" alt="description">
 </p>
 
 *( * ) Metric **Pick-up Frequency Rate**, which is calculated by dividing “Number of Days Carriers pick-up orders” by “Number of Days Sellers having Orders”, shows How often Carriers pick-up Orders when Sellers have Orders within a specific period. If the number is low, meaning that Carriers do not usually come over to pick-up orders.*
 
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/z5952943383977_29afb4d425757420e225b9918e6e45d2.jpg?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric2%20(3)" alt="description">
 </p>
 
 However, there is not a big difference between Pick-up Frequency Rate between Late Orders and On-time Orders. **The hypothesis is rejected.**
@@ -135,5 +135,5 @@ There are many other hypotheses relating to the Deliver Process that need to be 
 # Conclusion
 With all the problems discovered through the analysis process, here is the table that summary the information and next actions:
 <p align="center">
-  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/Screenshot%202024-10-22%20at%2011.14.11.png?raw=true" alt="description">
+  <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Conclusion" alt="description">
 </p>
