@@ -16,8 +16,8 @@ Focusing on quality of delivery system, I propose some **Key Metrics** acting as
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Delivery%20Process" alt="description">
 </p>
 
-## Project Tools
-With the purpose of **wrangling data and visualizing data** in a dashboard for performance evaluation, **Power BI** is the most suited tool for this whole process. [**Power Query Editor and M language**](https://en.wikipedia.org/wiki/Power_Query), which are languages available in **Power BI**, are used for wrangling and analyzing data, while I can also form data model and utilize Power BI features ([DAX language](https://en.wikipedia.org/wiki/Data_Analysis_Expressions), drag & drop interactions …) for accomplishing overview dashboards
+## Project Tools - Power BI
+With the purpose of **wrangling data and visualizing data** in a dashboard for performance evaluation, **Power BI** is the most suited all-in-one tool for this whole process. [**Power Query Editor and M language**](https://en.wikipedia.org/wiki/Power_Query), which are languages available in **Power BI**, are used for wrangling and analyzing data, while I can also form data model and utilize Power BI features ([DAX language](https://en.wikipedia.org/wiki/Data_Analysis_Expressions), drag & drop interactions …) for accomplishing overview dashboards
 
 *A Power BI Desktop file is built to monitor Olist's performance. Detailly, I also utilize it for Data Modeling and Data Cleaning (using Data Query Editor).
 The file can be downloaded [here](https://drive.google.com/file/d/1u1BTDwYSm05WXSu7CleDgqP8AiVX4PlO/view?usp=share_link)*
