@@ -9,7 +9,7 @@ Focusing on quality of delivery system, I propose some **Key Metrics** acting as
 - **Number of Late Orders**: Number of Orders having the *Actual delivery time* after the *Estimated delivery time*
 - **Late Orders Rate**: Number of Late Orders divided by Number of Total Orders
 - **Delivery Time**: The whole process starting from Orders purchased by Customers to Orders shipped to Customers
-	- **Order Processing Time**: Time starts from Orders purchased by Customer to Orders being approved by Olist’s systemD
+	- **Order Processing Time**: Time starts from Orders purchased by Customer to Orders being approved by Olist’s system
 	- **Picking Time**: Time starts from Orders being approved to Orders being picked up by Carriers
 	- **Shipping Time**: Time starts from Orders being picked up by Carriers to Orders shipped to Customers
 <p align="center">
