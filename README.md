@@ -1,11 +1,11 @@
 # Project Background
 ## Project Objective
-**Olist, a Brazilian e-commerce marketplace platform,** plays as an intermediary connecting Sellers and Buyers across Brazil. Sellers list their products and services, while Buyers browse the lists and conveniently purchase online via Olist's website and mobile app; and data of these activities are recorded.
+**Olist, a Brazilian e-commerce marketplace platform,** serves as an intermediary connecting Sellers and Buyers across Brazil. Sellers list their products and services, while Buyers browse the lists and conveniently purchase online via Olist's website and mobile app; and data of these activities are recorded.
 
 This project thoroughly **analyzes these datasets to figure out critical insights** and **propose some recommendations to improve Olist's business operation**, specifically on topic of **Shipment Analysis**, which is analysis on quality of delivery systems.
 
 ## Key Metrics 
-Focusing on quality of delivery system, I propose some **Key Metrics** acting as a back-bone for my analysis
+Focusing on quality of delivery system, I propose some **Key Metrics** serve as back-bone for my analysis
 - **Number of Late Orders**: Number of Orders having the *Actual delivery time* after the *Estimated delivery time*
 - **Late Orders Rate**: Number of Late Orders divided by Number of Total Orders
 - **Delivery Time**: The whole process starting from Orders purchased by Customers to Orders shipped to Customers
@@ -16,7 +16,7 @@ Focusing on quality of delivery system, I propose some **Key Metrics** acting as
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Delivery%20Process" alt="description" style="width:80%;">
 </p>
 
-## Project Tools - Power BI
+## Project Tools: Power BI
 With the purpose of **wrangling data and visualizing data** in a dashboard for performance evaluation, **Power BI** is the most suited all-in-one tool for this whole process. [**Power Query Editor and M language**](https://en.wikipedia.org/wiki/Power_Query), which are languages available in **Power BI**, are used for wrangling and analyzing data, while I can also form data model and utilize Power BI features ([DAX language](https://en.wikipedia.org/wiki/Data_Analysis_Expressions), drag & drop interactions …) for accomplishing overview dashboards
 
 *A Power BI Desktop file is built to monitor Olist's performance. Detailly, I also utilize it for Data Modeling and Data Cleaning (using Data Query Editor).
@@ -131,7 +131,7 @@ However, there is not a big difference between Pick-up Frequency Rate between La
 
 There are many other hypotheses relating to the Deliver Process that need to be considered, but there is a limit in the dataset to prove them. However, with my real-life experience working in a Business Data Analyst role, I propose some next actions to deep dive into the problems, understand the root cause and give solutions for business improvement.
 
-# Conclusion
+# Key Recommendations
 With all the problems discovered through the analysis process, here is the table that summary the information and next actions:
 <p align="center">
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Conclusion" alt="description" style="width:80%;">
