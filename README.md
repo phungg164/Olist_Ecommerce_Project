@@ -5,7 +5,7 @@
 This project thoroughly **analyzes these datasets to figure out critical insights** and **propose some recommendations to improve Olist's business operation**, specifically on topic of **Shipment Analysis**, which is analysis on quality of delivery systems.
 
 ## Key Metrics 
-Focusing on quality of delivery system, I propose some **Key Metrics** serve as back-bone for my analysis
+Focusing on quality of delivery system, I propose some **Key Metrics** serving as back-bone for my analysis
 - **Number of Late Orders**: Number of Orders having the *Actual delivery time* after the *Estimated delivery time*
 - **Late Orders Rate**: Number of Late Orders divided by Number of Total Orders
 - **Delivery Time**: The whole process starting from Orders purchased by Customers to Orders shipped to Customers
