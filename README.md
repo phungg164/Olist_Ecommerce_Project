@@ -65,7 +65,7 @@ Consequently, while the average rating of On-time Orders was **4.3**, this numbe
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(1)" alt="description" style="width:65%;">
 </p>
 
-Among **7.8K Late Orders in 3 years**, orders of Sellers from Sao Paulo had the highest number in contribution. This is understandable as Total Orders in Sao Paulo accounted for more than 70% orders in the dataset, so that there was no problem if the Late Order Rate in Sao Paulo is not higher than average. **Hence, it’s much better to look at both 2 metrics: number of Late Orders and Late Orders Rate, instead of just only one of them.**
+Among **7.8K Late Orders in 3 years**, orders of Sellers from Sao Paulo had the highest number in contribution. This is understandable as Total Orders in Sao Paulo accounted for more than 76% orders in the dataset. **Hence, it’s much better to look at both 2 metrics: number of Late Orders and Late Orders Rate, instead of just only one of them.**
 
 From now on, I will choose to visualize Late Orders Rate by different dimensions, and simultaneously sort different categorical values of each dimension in descending order.
 
@@ -73,19 +73,20 @@ From now on, I will choose to visualize Late Orders Rate by different dimensions
 <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Analysis%20-%20KeyMetric1%20(2)" alt="description" style="width:90%;">
 </p>
 
-Sao Paulo with **its highest contribution of Late Orders**, also had the **Late Orders Rate higher than average** which is a huge problem that Olist should pay attention to *(I will prioritize this state first as the contribution of other states in terms of Late Orders are not high).*
+Sao Paulo with **its highest contribution of Late Orders**, also had the **Late Orders Rate higher than average** which is a huge problem that Olist should pay attention to *(I will prioritize this state first as the contributions of other states in terms of Late Orders are not high).*
 
 As a Business Data Analyst, I should have some answers for managers about **What were the reasons causing this abnormal pattern in Sao Paulo?**
 
-My whole thinking process to cope with this question is:
-- Understand domain knowledge through cross-functional team and online resources
-- Propose hypotheses about the root cause the problem using domain knowledge
-- Quantify the hypotheses by data
-- Accept or reject the hypotheses
+> My whole thinking process to cope with this question is:
+> - Understand domain knowledge through cross-functional team and online resources
+> - Propose hypotheses about the root cause the problem using domain knowledge
+> - Quantify the hypotheses by data
+> - Accept or reject the hypotheses
 
 Based on some online research about e-commerce delivery process, here are some of my hypotheses for this problem:
 -   (1) The shipping distance from Sao Paulo to customer’s location was far
 -   (2) The exponential growth of Total Orders in Sao Paulo caused overloaded to Olist’s shipment system
+-   (3) ...
 
 (1) Looking at the Shipping Roads that were **in top contribution of Late Orders** and **had Late Orders Rate higher than average**, the roads were almost from Sao Paulo to nearby states (picture below). So, **hypothesis (1) is rejected.**
 
@@ -129,10 +130,10 @@ Here are some hypotheses relating to time extension of Late Orders, comparing to
 
 However, there is not a big difference between Pick-up Frequency Rate between Late Orders and On-time Orders. **The hypothesis is rejected.**
 
-There are many other hypotheses relating to the Deliver Process that need to be considered, but there is a limit in the dataset to prove them. However, with my real-life experience working in a Business Data Analyst role, I propose some next actions to deep dive into the problems, understand the root cause and give solutions for business improvement.
+There are many other hypotheses relating to the Deliver Process that need to be considered, but there is a limit in the dataset to prove them. However, with my real-life experience working in a Business Data Analyst role, I propose some next actions to deep dive into the problems, understand the root cause (this is the must-have step) and then finally, propose solutions to the root-causes for business improvement.
 
 # Key Recommendations
-With all the problems discovered through the analysis process, here is the table that summary the information and next actions:
+With all the problems discovered through the analysis process, here is the table that summaries the information encountered and recommendations proposed:
 <p align="center">
   <img src="https://github.com/phungg164/Olist_Brazilian_Ecommerce_Dataset/blob/main/images/Conclusion" alt="description" style="width:80%;">
 </p>
