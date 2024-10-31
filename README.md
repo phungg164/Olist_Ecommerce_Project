@@ -130,7 +130,7 @@ Here are some hypotheses relating to time extension of Late Orders, comparing to
 
 However, there is not a big difference between Pick-up Frequency Rate between Late Orders and On-time Orders. **The hypothesis is rejected.**
 
-There are many other hypotheses relating to the Deliver Process that need to be considered, but there is a limit in the dataset to prove them. However, with my real-life experience working in a Business Data Analyst role, I propose some next actions to deep dive into the problems, understand the root cause (this is the must-have step) and then finally, propose solutions to the root-causes for business improvement.
+There are many other hypotheses relating to the Deliver Process that need to be considered, but there is a limit in the dataset to prove them. However, with my real-life experience working in a Business Data Analyst role, I propose some next actions to deep dive into the problems, understand the root cause (this is the must-done step) and then finally, propose solutions to the root-causes for solving business problems.
 
 # Key Recommendations
 With all the problems discovered through the analysis process, here is the table that summaries the information encountered and recommendations proposed:
